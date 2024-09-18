@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Information</title>
+</head>
+<body>
+    <div class="container">
+        <h1>PERSONAL INFORMATION</h1>
+        <form>
+            <div class="form-group">
+                <label for="FirstName">First Name:</label>
+                <input type="text" id="FirstName" name="FirstName" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+                <label for="LastName">Last Name:</label>
+                <input type="text" id="LastName" name="LastName" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <label for="NickName">Nick Name:</label>
+                <input type="text" id="NickName" name="NickName" placeholder="Nick Name">
+            </div>
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <label for="DOB">Date of Birth:</label>
+                <input type="date" id="DOB" name="DateofBirth">
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" name="Gender" value="Male"> Male
+                <input type="radio" name="Gender" value="Female"> Female
+            </div>
+            <div class="form-group">
+                <label for="PhoneNumber">Phone Number:</label>
+                <input type="tel" id="PhoneNumber" name="PhoneNumber" placeholder="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <label for="Address">Address:</label><br>
+                <textarea id="Address" name="Address" cols="50" rows="3" placeholder="Address"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Hobbies:</label><br>
+                <input type="radio" id="Music" name="Hobby" value="Music"> Music<br>
+                <input type="radio" id="Shopping" name="Hobby" value="Shopping"> Shopping<br>
+                <input type="radio" id="Food" name="Hobby" value="Food"> Food<br>
+            </div>
+            <div class="form-buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <a href="Index1.html">
+                    <input type="button" value="Home">
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
